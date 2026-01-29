@@ -1,0 +1,22 @@
+{
+  "name": "projmanag",
+  "version": "1.0.0",
+  "description": "a project managemwnt system for beginners",
+  "keywords": [
+    "udemy",
+    "course",
+    "API",
+    "creation",
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "paawan saxena",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "devDependencies": {
+    "prettier": "3.8.1"
+  }
+}
