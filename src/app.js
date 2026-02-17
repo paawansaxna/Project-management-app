@@ -16,7 +16,9 @@ app.use(
         allowedHeaders: ["Content-Type", "Authorization"]
     })
 )
-
+//import healthcheck
+import healthCheckRouter from "./routes/healthcheck.routes.js"
+app.use("/api/v1/healthcheck", healthCheckRouter)
 app.get("/", (req,res) =>{
     res.send("this is homepage of basecampy")
 })
